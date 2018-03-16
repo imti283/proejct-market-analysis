@@ -4,7 +4,7 @@ try:
     import requests
     import json
 except:
-    pass
+    print("Fail")
 
 d = defaultdict(lambda: defaultdict(dict))
 
